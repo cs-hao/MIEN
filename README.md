@@ -52,17 +52,17 @@ CUDA_VISIBLE_DEVICES=0  python main.py  --model BCAN --save MIEN_x4 --scale 4  -
 
 Cd to 'TestCode/code', run the following scripts to train models.
 
-`TestCode` <br/>
+`TestCode`<br/>
   `└──`code<br/>
-    `└──`HR<br/>
-        `└──`Set5<br/>
-            `└──`x2/x3/x4<br/>
-         `└──`LR<br/>
-            `└──`LRBI<br/>
-                `└──`Set5<br/>
-                    `└──`x2/x3/x4<br/>
-    `└──`SR<br/>
-    `└──`model<br/>
+  `└──`HR<br/>
+            `└──`Set5<br/>
+                     `└──`x2/x3/x4<br/>
+  `└──`LR<br/>
+             `└──`LRBI<br/>
+                      `└──`Set5<br/>
+                               `└──`x2/x3/x4<br/>
+  `└──`SR<br/>
+  `└──`model<br/>
 
 ### x2
 
