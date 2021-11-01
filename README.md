@@ -18,8 +18,8 @@ This is the official implementations of Multi-scale interactive enhanced network
 Cd to 'TrainCode/code', run the following scripts to train models.
 
 `TrainCode` <br/>
-  `└──`code<br/>
-  `└──`experiment<br/>
+    `└──`code<br/>
+    `└──`experiment<br/>
 
 ### x2
 
