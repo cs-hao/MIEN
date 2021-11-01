@@ -54,7 +54,7 @@ Cd to 'TestCode/code', run the following scripts to train models.
 
 ### x2
 
-
+```bash
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIEN --pre_train ../model/MIEN_x2.pt --test_only --save_results --chop --save MIEN  --testset Set5
 
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIEN --pre_train ../model/MIEN_x2.pt --test_only --save_results --chop --save MIEN  --testset Set14
@@ -62,7 +62,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIE
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIEN --pre_train ../model/MIEN_x2.pt --test_only --save_results --chop --save MIEN  --testset BSD100
 
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIEN --pre_train ../model/MIEN_x2.pt --test_only --save_results --chop --save MIEN  --testset Urban100
-///////////////////////////////////////////////////////////////////////////////////////
+#########################################################################################
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIEN --pre_train ../model/MIEN_x2.pt --test_only --save_results --chop  --self_ensemble --save MIENPlus  --testset Set5
 
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIEN --pre_train ../model/MIEN_x2.pt --test_only --save_results --chop  --self_ensemble --save MIENPlus  --testset Set14
@@ -73,7 +73,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIE
 ```
 
 ### x3
-​```bash
+```bash
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3  --model MIEN --pre_train ../model/MIEN_x3.pt --test_only --save_results --chop --save MIEN  --testset Set5
 
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3  --model MIEN --pre_train ../model/MIEN_x3.pt --test_only --save_results --chop --save MIEN  --testset Set14
@@ -81,7 +81,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3  --model MIE
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3  --model MIEN --pre_train ../model/MIEN_x3.pt --test_only --save_results --chop --save MIEN  --testset BSD100
 
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3  --model MIEN --pre_train ../model/MIEN_x3.pt --test_only --save_results --chop --save MIEN  --testset Urban100
-///////////////////////////////////////////////////////////////////////////////////////
+#########################################################################################
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3  --model MIEN --pre_train ../model/MIEN_x3.pt --test_only --save_results --chop  --self_ensemble --save MIENPlus  --testset Set5
 
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3  --model MIEN --pre_train ../model/MIEN_x3.pt --test_only --save_results --chop  --self_ensemble --save MIENPlus  --testset Set14
@@ -100,7 +100,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 4  --model MIE
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 4  --model MIEN --pre_train ../model/MIEN_x4.pt --test_only --save_results --chop --save MIEN  --testset BSD100
 
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 4  --model MIEN --pre_train ../model/MIEN_x4.pt --test_only --save_results --chop --save MIEN  --testset Urban100
-///////////////////////////////////////////////////////////////////////////////////////
+#########################################################################################
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 4  --model MIEN --pre_train ../model/MIEN_x4.pt --test_only --save_results --chop  --self_ensemble --save MIENPlus  --testset Set5
 
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 4  --model MIEN --pre_train ../model/MIEN_x4.pt --test_only --save_results --chop  --self_ensemble --save MIENPlus  --testset Set14
