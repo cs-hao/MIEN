@@ -21,6 +21,10 @@ Cd to 'TrainCode/code', run the following scripts to train models.
     `└──`code<br/>
     `└──`experiment<br/>
 
+`DIV2K`
+  `└──`DIV2K_HQ
+  `└──`DIV2K_HQ
+
 ### x2
 
 ``` bash
