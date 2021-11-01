@@ -52,21 +52,9 @@ CUDA_VISIBLE_DEVICES=0  python main.py  --model BCAN --save MIEN_x4 --scale 4  -
 
 Cd to 'TestCode/code', run the following scripts to train models.
 
-`TestCode`<br/>
-  `└──`code<br/>
-  `└──`HR<br/>
-            `└──`Set5<br/>
-                     `└──`x2/x3/x4<br/>
-  `└──`LR<br/>
-             `└──`LRBI<br/>
-                      `└──`Set5<br/>
-                               `└──`x2/x3/x4<br/>
-  `└──`SR<br/>
-  `└──`model<br/>
-
 ### x2
 
-```bash
+
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIEN --pre_train ../model/MIEN_x2.pt --test_only --save_results --chop --save MIEN  --testset Set5
 
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIEN --pre_train ../model/MIEN_x2.pt --test_only --save_results --chop --save MIEN  --testset Set14
@@ -85,7 +73,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 2  --model MIE
 ```
 
 ### x3
-```bash
+​```bash
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3  --model MIEN --pre_train ../model/MIEN_x3.pt --test_only --save_results --chop --save MIEN  --testset Set5
 
 CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --scale 3  --model MIEN --pre_train ../model/MIEN_x3.pt --test_only --save_results --chop --save MIEN  --testset Set14
