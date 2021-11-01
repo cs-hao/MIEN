@@ -17,13 +17,9 @@ This is the official implementations of Multi-scale interactive enhanced network
 
 Cd to 'TrainCode/code', run the following scripts to train models.
 
-`TrainCode` <br/>
-    `└──`code<br/>
-    `└──`experiment<br/>
-
-`DIV2K`<br/>
-  `└──`DIV2K_HQ<br/>
-  `└──`DIV2K_HQ<br/>
+`TrainCode`<br/>
+  `└──`code<br/>
+  `└──`experiment<br/>
 
 ### x2
 
