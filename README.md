@@ -19,8 +19,7 @@ Cd to 'TrainCode/code', run the following scripts to train models.
 
 `TrainCode` <br/>
   `└──`code<br/>
-
-​	 `└──`experiment<br/>
+  `└──`experiment<br/>
 
 ### x2
 
@@ -55,24 +54,15 @@ Cd to 'TestCode/code', run the following scripts to train models.
 
 `TestCode` <br/>
   `└──`code<br/>
-
-​	`└──`HR<br/>
-
-​			`└──`Set5<br/>
-
-​					`└──`x2/x3/x4<br/>
-
-​	`└──`LR<br/>
-
-​			`└──`LRBI<br/>
-
-​			`└──`Set5<br/>
-
-​					`└──`x2/x3/x4<br/>
-
-​	`└──`SR<br/>
-
-​	`└──`model<br/>
+    `└──`HR<br/>
+        `└──`Set5<br/>
+            `└──`x2/x3/x4<br/>
+         `└──`LR<br/>
+            `└──`LRBI<br/>
+                `└──`Set5<br/>
+                    `└──`x2/x3/x4<br/>
+    `└──`SR<br/>
+    `└──`model<br/>
 
 ### x2
 
